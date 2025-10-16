@@ -20,6 +20,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Dr. Resume",
+    liveURL:"https://ai-resume-analyzer-omega-eight.vercel.app/",
     image: project1,
     description:
       "A fully functional resume analyzer website with features like ATS score, resume feedback, and user authentication.",
@@ -27,25 +28,26 @@ export const PROJECTS = [
   },
   {
     title: "Video Chat Application",
+    liveURL:"https://vchat-poll.vercel.app/",
     image: project2,
     description:
       "An application for real-time video calling with one-on-one.",
     technologies: ["React", "NodeJs", "Socket.io", "WebRTC"],
   },
-  {
-    title: "Portfolio Website",
-    image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: [ "React", "TailwindCSS"],
-  },
-  {
-    title: "PayTm Mini Clone",
-    image: project4,
-    description:
-      "A mini paytm clone with user authentication and mangement, enabling users to register,login and manage their accoutns securely and also with features like fake money transfer.",
-    technologies: ["React","Express", "NodeJs", "MongoDB"],
-  },
+  // {
+  //   title: "Portfolio Website",
+  //   image: project3,
+  //   description:
+  //     "A personal portfolio website showcasing projects, skills, and contact information.",
+  //   technologies: [ "React", "TailwindCSS"],
+  // },
+  // {
+  //   title: "PayTm Mini Clone",
+  //   image: project4,
+  //   description:
+  //     "A mini paytm clone with user authentication and mangement, enabling users to register,login and manage their accoutns securely and also with features like fake money transfer.",
+  //   technologies: ["React","Express", "NodeJs", "MongoDB"],
+  // },
 ];
 
 export const CONTACT = {
