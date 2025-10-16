@@ -1,8 +1,6 @@
 import logo from "../assets/fa.webp";
 import {FaLinkedin, FaGithub } from "react-icons/fa"
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { SiGmail } from "react-icons/si";
-import CallButton from "./CallButton";
 
 const Navbar = () => {
   return (
@@ -19,6 +17,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Linkedin"
+          className="hover:text-blue-500 transition-colors"
         >
           <FaLinkedin />
         </a>
@@ -28,6 +27,7 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="Github"
+          className="hover:text-gray-400 transition-colors"
         >
           <FaGithub />
         </a>
@@ -37,21 +37,11 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="x"
+          className="hover:text-sky-500 transition-colors"
         >
           <FaSquareXTwitter />
         </a>
 
-        <a
-          href="mailto:shaikfayazuddin18@gmail.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Gmail"
-        >
-          <SiGmail />
-        </a>
-
-        {/* <CallButton/> */}
-        
       </div>
     </nav>
   );

@@ -6,7 +6,7 @@ const Hero = () => {
       <div className='flex flex-wrap lg:flex-row-reverse'>
         <div className='w-full lg:w-1/2'>
           <div className='flex justify-center lg:p-8'>
-            <img src={profilePic} alt="Fayazuddin Shaik" className="border border-stone-900 rounded-3xl" />
+            {/* <img src={profilePic} alt="Fayazuddin Shaik" className="border border-stone-900 rounded-3xl" /> */}
           </div>
         </div>
         <div className="w-full lg:w-1/2">
