@@ -6,7 +6,7 @@ import CallButton from "./CallButton";
 
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-center py-6">
+    <nav className="flex items-center justify-between py-6">
       <div className="flex flex-shrink-0 items-center">
         <a href="/" aria-label="Home">
           <img src={logo} alt="Logo" className="mx-2" width={50} height={33} />
@@ -50,7 +50,7 @@ const Navbar = () => {
           <SiGmail />
         </a>
 
-        <CallButton/>
+        {/* <CallButton/> */}
         
       </div>
     </nav>
