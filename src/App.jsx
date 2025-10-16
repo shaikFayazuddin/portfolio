@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero"
 import Technologies from "./components/Technologies";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Navbar></Navbar>
         <Hero></Hero>
         <Technologies></Technologies>
+        <Projects></Projects>
       </div>
     </div>
   );
