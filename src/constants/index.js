@@ -43,7 +43,7 @@ export const PROJECTS = [
   // },
   {
     title: "PayTm Mini Clone",
-    liveURL : "https://cohort-neon.vercel.app" 
+    liveURL : "https://cohort-neon.vercel.app",
     image: project4,
     description:
       "A mini paytm clone with user authentication and mangement, enabling users to register,login and manage their accoutns securely and also with features like fake money transfer.",
